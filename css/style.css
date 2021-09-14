@@ -1,0 +1,199 @@
+/*general-styles*/
+
+body{
+
+    background-color: black;
+    height: 1200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 930px;
+    margin: auto;
+}
+.mg{
+     margin-right: 5%
+}
+.clear{
+    clear: both;
+}
+/*home-section*/
+.home-content{
+    height: 118px;
+    background-image: url(../images/images/bg.jpg);
+    background-repeat: no-repeat;
+    
+}
+.icon-menu{
+    padding: 30px;
+    float:right;
+}
+.icon-item{
+    list-style-type: none;
+    display: inline-block;
+  
+}
+/*nav-section*/
+
+.nav{
+    float: left;
+    padding-left: 10px;
+}
+.nav-item{
+    display:inline-block;
+ 
+     
+
+     
+}
+.nav .nav-item a{
+    display: block;
+ text-decoration: none;
+  text-align: center;
+ text-transform: capitalize;
+ width: 75px;
+ height: 15px;
+background-color: transparent;
+    padding: 15px 0;
+    transition: background-color 0.5s;
+    color:white;
+    margin-top: -5px;
+   
+    
+}
+.nav .nav-item a:hover{
+    background-color: cornflowerblue;
+    
+    
+}
+/*home-container*/
+.background{
+    background-color: gainsboro;
+    margin: auto;
+    width: 930px;
+    height: 1020px;
+}
+
+.car-photo{
+    padding: 10px;
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+.slider{
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+}
+.circle {
+  height: 10px;
+  width: 10px;
+  background-color: #555;
+  border-radius: 50%;
+display: inline-block;
+margin: 0 1px;
+
+}
+
+.active{
+     background-color:#ff7600;
+}
+.over-photo{
+    text-transform: uppercase;
+    width:200px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 2%;
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+    text-align: center;
+    padding: 15px 0;
+}
+.home-desc{
+    width:900px;
+    margin:auto;
+    padding: 20px 0;
+}
+
+/*welcom-section*/
+.welcom{
+float:left;
+    width:70%;
+   
+}
+.news{
+float:left;
+    width:25%;
+}
+.home-desc{
+    width: 900px;
+    margin: auto;
+}
+.home-desc-header{
+    text-transform: uppercase;
+    color: #0089ff;
+    padding-left: 5px;
+}
+.header-line{
+    margin: 5px 0 20px 0;
+}
+.welcom-desc{
+    padding-left:5px;
+    text-align:justify;
+}
+.welcom-list{
+    padding-left: 50px;
+    margin:17px 0 5px 0;
+    margin-bottom: ;
+    line-height: 1.4;
+}
+.photos{
+    padding: 0 10px; 
+}
+.welcom-photos{
+    float: left;
+    padding: 3px;
+    
+    border: 0.5px solid white;
+}
+.welcom-paragraph{
+    text-align: justify;
+    padding-left: 5px;
+    margin:25px 0;
+}
+/*news-section*/
+
+.news-content-header{
+    text-transform: uppercase;
+    font-size: 12px;
+    color:ff7600;
+    line-height: 1.2;
+}
+span{
+    color: #0089ff;
+}
+.news-content{
+    padding-left: 5px;
+}
+
+.news-content-desc{
+    text-align: justify;
+    margin-top: 10px;
+}
+.news-section2{
+    margin-top: 20px;
+}
+/*footer-line*/
+.footer-line{
+    margin: 10px auto 0 auto;
+}
+.copyright{
+    margin: 15px 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
